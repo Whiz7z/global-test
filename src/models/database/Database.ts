@@ -1,3 +1,5 @@
+//Database.ts
+
 import {Users, Accounts, TopUpRequests} from ".";
 
 class Database {
@@ -27,14 +29,14 @@ class Database {
             id: 1,
             createDate: new Date('2023-01-10T10:00:00Z'),
             amount: 50,
-            accountId: 101,
+            accountId: 1,
             userId: 1,
         },
         {
             id: 2,
             createDate: new Date('2023-01-11T10:00:00Z'),
             amount: 100,
-            accountId: 102,
+            accountId: 2,
             userId: 2,
         },
     ]);

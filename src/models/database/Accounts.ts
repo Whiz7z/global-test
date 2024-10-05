@@ -1,3 +1,5 @@
+//Accounts.ts
+
 import Entity from "./Entity";
 
 export type AccountType = 'FACEBOOK' | 'TIKTOK';

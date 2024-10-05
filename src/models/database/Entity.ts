@@ -1,3 +1,5 @@
+//Entity.ts
+
 export type BaseEntity<T> = {
     id: number,
     createDate: Date
